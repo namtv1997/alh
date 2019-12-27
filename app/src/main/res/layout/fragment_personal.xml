@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.ad_personal.PersonalFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="@dimen/avatar_profile_size"
+                android:layout_height="@dimen/avatar_profile_size"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iv_call"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/TextTitleLarge"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:padding="@dimen/spacing_tiny"
+                android:textColor="@color/blue_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivAvatar" />
+
+            <TextView
+                android:id="@+id/tvNumBer"
+                style="@style/TextContentNormal"
+                android:textColor="@color/blue_light"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingTop="@dimen/spacing_small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+            <TextView
+                android:id="@+id/tvGender"
+                style="@style/TextContentNormal"
+                android:textColor="@color/blue_light"
+                android:text="Nam"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingTop="@dimen/spacing_tiny"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvNumBer" />
+
+            <TextView
+                android:id="@+id/tvDateOpBirth"
+                style="@style/TextContentNormal"
+                android:textColor="@color/blue_light"
+                android:text="26/03/1993"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingTop="@dimen/spacing_tiny"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvGender" />
+
+            <TextView
+                android:id="@+id/tvLabelTotalMoney"
+                style="@style/TextTitleNormal"
+                android:paddingTop="@dimen/spacing_tiny"
+                android:singleLine="true"
+                android:text="@string/label_total_money"
+                android:textColor="@color/blue_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvDateOpBirth" />
+
+            <TextView
+                android:id="@+id/tvTotalMoney"
+                style="@style/TextContentNormal"
+                android:textColor="@color/blue_light"
+                android:layout_width="0dp"
+                android:text="100"
+                android:singleLine="true"
+                android:paddingTop="@dimen/spacing_tiny"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tvLabelTotalMoney"
+                app:layout_constraintStart_toEndOf="@id/tvLabelTotalMoney"
+                app:layout_constraintBottom_toBottomOf="@id/tvLabelTotalMoney" />
+
+            <Button
+                android:id="@+id/btnHistoryCall"
+                style="@style/ButtonPersonal"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:text="@string/button_history_call"
+                android:textAllCaps="false"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:drawableStart="@drawable/ic_time"
+                android:drawableEnd="@drawable/ic_right"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvLabelTotalMoney"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <Button
+                android:id="@+id/btnEditInfor"
+                style="@style/ButtonPersonal"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:text="@string/button_edit_infor"
+                android:textAllCaps="false"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:drawableStart="@drawable/ic_edit_infor"
+                android:drawableEnd="@drawable/ic_right"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnHistoryCall"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                style="@style/ButtonPersonal"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:text="@string/button_change_password"
+                android:textAllCaps="false"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableEnd="@drawable/ic_right"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnEditInfor"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnIntro"
+                style="@style/ButtonPersonal"
+                android:layout_marginBottom="@dimen/spacing_giant"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:text="@string/button_intro"
+                android:textAllCaps="false"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:drawableStart="@drawable/ic_intro"
+                android:drawableEnd="@drawable/ic_right"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnChangePassword"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                style="@style/ButtonLogout"
+                android:layout_marginBottom="@dimen/spacing_giant"
+                android:layout_marginTop="@dimen/spacing_giant"
+                android:text="@string/button_logout"
+                android:gravity="center"
+                android:paddingStart="80dp"
+                android:paddingEnd="@dimen/spacing_giant"
+                android:drawableStart="@drawable/ic_logout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnIntro"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

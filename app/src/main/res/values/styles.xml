@@ -1,0 +1,243 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMain</item>
+        <item name="colorPrimaryDark">@color/colorMain</item>
+        <item name="colorAccent">@color/colorMain</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="AppThemeMenu" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gray_60</item>
+        <item name="colorPrimaryDark">@color/gray_60</item>
+        <item name="colorAccent">@color/gray_60</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/blue_light</item>
+    </style>
+
+    <style name="EditTextWhiteTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.MyTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/bg_option_menu</item>
+    </style>
+
+    <!--EditText-->
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <!--Text Style-->
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextTitleLarge" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/navy_blue_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextTitleNormal" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextContentHugeBold" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_huge</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+
+    </style>
+
+    <style name="TextContentNormalBold" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextContentNormal" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/gray_60</item>
+    </style>
+
+    <style name="TextContentLarge" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextContentItalicTiny" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/gray_30</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="TextContentTiny" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/gray_60</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="TextContentNormalNavy" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/navy_blue_dark</item>
+    </style>
+
+    <style name="TextContentLargeNavy" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/navy_blue_dark</item>
+    </style>
+
+    <style name="TextContentNormalRed" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/red_light</item>
+        <item name="android:paddingEnd">@dimen/spacing_small</item>
+    </style>
+
+    <!--Button Style-->
+    <style name="ButtonStyle" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ButtonNavyHard" parent="ButtonStyle">
+        <item name="android:layout_width">@dimen/button_try_again_width</item>
+        <item name="android:background">@drawable/bg_hard_navy_blue_dark</item>
+        <item name="android:textColor">@color/yellow_bright</item>
+    </style>
+
+    <style name="ButtonLogin" parent="ButtonStyle">
+        <item name="android:layout_width">@dimen/button_login_width</item>
+        <item name="android:background">@drawable/bg_btnlogin</item>
+        <item name="android:textColor">@color/blue_dark</item>
+    </style>
+
+    <style name="ButtonRegister" parent="ButtonStyle">
+        <item name="android:layout_width">@dimen/button_login_width</item>
+        <item name="android:background">@drawable/bg_btnregister</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonPersonal" parent="ButtonStyle">
+        <item name="android:layout_width">@dimen/button_login_width</item>
+        <item name="android:background">@drawable/bg_btn_personal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonLogout" parent="ButtonStyle">
+        <item name="android:layout_width">@dimen/button_login_width</item>
+        <item name="android:background">@drawable/bg_btn_logout</item>
+        <item name="android:textColor">@color/pink_bright</item>
+    </style>
+
+    <style name="ButtonDial" parent="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_huge</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:colorControlNormal">@color/blue_light</item>
+        <item name="android:colorControlActivated">@color/blue_light</item>
+        <item name="android:colorControlHighlight">@color/blue_light</item>
+    </style>
+
+    <style name="EditTextTheme1" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="android:colorControlHighlight">@color/white</item>
+    </style>
+
+    <!--EditText Style-->
+    <style name="EditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/EditTextTheme</item>
+    </style>
+
+    <style name="EditTextSingleLine" parent="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/EditTextTheme</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_50</item>
+    </style>
+
+    <style name="EditTextSingleLine1" parent="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/EditTextTheme1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray_50</item>
+    </style>
+    <style name="EditTextNoUnderLine" parent="EditTextStyle">
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingEnd">@dimen/spacing_small</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/navy_blue_dark</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="TextInPutLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_normal</item>
+        <item name="android:textColorHint">@color/gray_trans_30</item>
+        <item name="android:theme">@style/EditTextWhiteTheme</item>
+
+    </style>
+
+    <style name="ViewLineGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gray_30</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#a0000000</item>
+    </style>
+
+<!--    <style name="MyCustomPickerTheme" parent="MultiContactPicker.Azure">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="mcpToolbarTheme">@style/MyCustomToolbarTheme</item>-->
+<!--        <item name="mcpListPopupWindowStyleTheme">@style/MyCustomToolbarTheme</item>-->
+<!--    </style>-->
+
+<!--    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">-->
+<!--        <item name="android:textColorPrimary">@color/colorAccent</item>-->
+<!--        <item name="android:textColorSecondary">@color/colorAccent</item>-->
+<!--    </style>-->
+
+
+</resources>

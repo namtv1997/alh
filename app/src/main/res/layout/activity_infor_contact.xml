@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.ae_phone.infor_contact.InforContactActivity">
+
+    <include
+        layout="@layout/toolbar_infor_contact"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="@dimen/icon_size_giant1"
+                android:layout_height="@dimen/icon_size_giant1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iv_call"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/TextContentHugeBold"
+                android:layout_width="0dp"
+                android:paddingStart="@dimen/spacing_small"
+                app:layout_constraintEnd_toStartOf="@id/ic_message"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivAvatar" />
+
+            <ImageView
+                android:id="@+id/ic_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/spacing_small"
+                android:src="@drawable/ic_message"
+                app:layout_constraintBottom_toBottomOf="@id/tvName"
+                app:layout_constraintEnd_toStartOf="@id/ivCall"
+                app:layout_constraintTop_toTopOf="@id/tvName" />
+
+            <ImageView
+                android:id="@+id/ivCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_tiny"
+                android:paddingTop="@dimen/spacing_small"
+                android:src="@drawable/ic_mini_call"
+                app:layout_constraintBottom_toBottomOf="@id/ic_message"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ic_message" />
+
+            <View
+                android:id="@+id/devider1"
+                style="@style/ViewLineGray"
+                app:layout_constraintTop_toBottomOf="@id/ivCall"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvLabelNumber"
+                style="@style/TextContentNormalBold"
+                android:layout_width="0dp"
+                android:padding="@dimen/spacing_small"
+                android:text="@string/label_phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/devider1" />
+
+            <TextView
+                android:id="@+id/tvLabel"
+                style="@style/TextContentLarge"
+                android:layout_width="match_parent"
+                android:paddingStart="@dimen/spacing_huge"
+                android:singleLine="true"
+                android:text="@string/label_mobile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvLabelNumber" />
+
+            <TextView
+                android:id="@+id/tvNumber"
+                style="@style/TextContentLarge"
+                android:layout_width="match_parent"
+                android:paddingStart="@dimen/spacing_huge"
+                android:paddingTop="@dimen/spacing_tiny"
+                android:singleLine="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvLabel" />
+
+            <View
+                android:id="@+id/devider2"
+                style="@style/ViewLineGray"
+                android:layout_marginStart="@dimen/spacing_huge"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                android:layout_marginEnd="@dimen/spacing_large"
+                app:layout_constraintTop_toBottomOf="@id/tvNumber"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvLabelEmail"
+                style="@style/TextContentNormalBold"
+                android:layout_width="0dp"
+                android:padding="@dimen/spacing_small"
+                android:singleLine="true"
+                android:text="@string/hint_email"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/devider2" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                style="@style/TextContentLarge"
+                android:layout_width="match_parent"
+                android:paddingStart="@dimen/spacing_huge"
+                android:singleLine="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvLabelEmail" />
+
+            <View
+                android:id="@+id/devider3"
+                style="@style/ViewLineGray"
+                android:layout_marginStart="@dimen/spacing_huge"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                android:layout_marginEnd="@dimen/spacing_large"
+                app:layout_constraintTop_toBottomOf="@id/tvEmail"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvLabelHistory"
+                style="@style/TextContentNormalBold"
+                android:layout_width="0dp"
+                android:padding="@dimen/spacing_small"
+                android:singleLine="true"
+                android:text="@string/label_history"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/devider3" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvHistorycall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvLabelHistory" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

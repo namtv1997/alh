@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.call.CallActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivWaitCall"
+        android:layout_width="@dimen/icon_size_giant1"
+        android:layout_height="@dimen/icon_size_giant1"
+        android:layout_marginTop="@dimen/spacing_giant"
+        android:src="@drawable/iv_call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNameCallOutGoing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingStart="@dimen/spacing_large"
+        android:paddingEnd="@dimen/spacing_large"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivWaitCall" />
+
+    <TextView
+        android:id="@+id/tvMobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/spacing_giant2"
+        android:paddingTop="@dimen/spacing_normal"
+        android:text="@string/label_mobile"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNameCallOutGoing" />
+
+    <com.example.alohaandroid.utils.linphone.MarqueeTextView
+        android:id="@+id/tvNumberCallOutGoing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingStart="@dimen/spacing_tiny"
+        android:paddingTop="@dimen/spacing_normal"
+        android:paddingEnd="@dimen/spacing_large"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvMobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvMobile"
+        app:layout_constraintTop_toTopOf="@id/tvMobile" />
+
+    <Chronometer
+        android:id="@+id/current_call_timer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMobile" />
+
+    <CheckBox
+        android:id="@+id/cbMic"
+        android:layout_width="@dimen/icon_size_normal"
+        android:layout_height="@dimen/icon_size_normal"
+        android:background="@drawable/ic_mix_not_click"
+        android:button="@null"
+        android:layout_marginStart="@dimen/spacing_huge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/cbDial"
+        app:layout_constraintTop_toTopOf="@id/cbDial"/>
+
+    <TextView
+        android:id="@+id/tvMic"
+        style="@style/TextContentNormal"
+        android:text="@string/label_mute"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintEnd_toEndOf="@id/cbMic"
+        app:layout_constraintTop_toBottomOf="@id/cbMic"
+        app:layout_constraintStart_toStartOf="@id/cbMic"/>
+
+    <CheckBox
+        android:id="@+id/cbDial"
+        android:layout_width="@dimen/icon_size_normal"
+        android:layout_height="@dimen/icon_size_normal"
+        android:background="@drawable/ic_dial_not_click"
+        android:button="@null"
+        android:layout_marginBottom="@dimen/spacing_giant"
+        app:layout_constraintBottom_toTopOf="@id/ivDeny"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDial"
+        style="@style/TextContentNormal"
+        android:text="@string/label_keyboad"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintEnd_toEndOf="@id/cbDial"
+        app:layout_constraintTop_toBottomOf="@id/cbDial"
+        app:layout_constraintStart_toStartOf="@id/cbDial"/>
+
+    <CheckBox
+        android:id="@+id/cbLoud"
+        android:layout_width="@dimen/icon_size_normal"
+        android:layout_height="@dimen/icon_size_normal"
+        android:background="@drawable/ic_loud_not_click"
+        android:button="@null"
+        android:layout_marginEnd="@dimen/spacing_huge"
+        app:layout_constraintTop_toTopOf="@id/cbDial"
+        app:layout_constraintLeft_toRightOf="@id/cbDial"
+        app:layout_constraintBottom_toBottomOf="@id/cbDial"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvLoud"
+        style="@style/TextContentNormal"
+        android:text="@string/label_loud"
+        android:textSize="@dimen/font_normal"
+        app:layout_constraintEnd_toEndOf="@id/cbLoud"
+        app:layout_constraintTop_toBottomOf="@id/cbLoud"
+        app:layout_constraintStart_toStartOf="@id/cbLoud"/>
+
+    <ImageView
+        android:id="@+id/ivDeny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:src="@drawable/ic_call_denie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

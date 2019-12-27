@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071987864555",
+    "firebase_url": "https://voiceapp-261204.firebaseio.com",
+    "project_id": "voiceapp-261204",
+    "storage_bucket": "voiceapp-261204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071987864555:android:1e856dc9b9028c1ec49fae",
+        "android_client_info": {
+          "package_name": "com.example.alohaandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071987864555-25t5hc6mp2185l1nlc521ds5e1kv29i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alohaandroid",
+            "certificate_hash": "f0244dd5b7e7931667f2f59f675a026104c5cb70"
+          }
+        },
+        {
+          "client_id": "1071987864555-b9g37ftka0kbnrg8vjsoult8gh38pe6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB56kKJYUJE7bTNDn3kJNhFqAF52JP0XpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071987864555-b9g37ftka0kbnrg8vjsoult8gh38pe6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

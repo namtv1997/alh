@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: debug -->
+    <string name="file_provider" translatable="false">org.linphone.provider</string>
+    <string name="linphone_address_mime_type" translatable="false">vnd.android.cursor.item/vnd.org.linphone.provider.sip_address</string>
+    <string name="sync_account_type" translatable="false">org.linphone.sync</string>
+
+</resources>

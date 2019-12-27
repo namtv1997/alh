@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="15dp"
+    android:layout_marginVertical="7dp"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/ic_va_star"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivAvatarContact"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="15dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorBlackText" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_va_phone" />
+
+
+    <!--    <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--        android:id="@+id/ivAvatarContact"-->
+    <!--        android:layout_width="@dimen/icon_size_huge"-->
+    <!--        android:layout_height="@dimen/icon_size_huge"-->
+    <!--        android:layout_marginStart="@dimen/spacing_large"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:src="@drawable/iv_call"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvName"-->
+    <!--        style="@style/TextContentLarge"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_marginEnd="@dimen/spacing_large"-->
+    <!--        android:ellipsize="end"-->
+    <!--        android:paddingStart="@dimen/spacing_tiny"-->
+    <!--        android:singleLine="true"-->
+    <!--        android:text="NGUYEN VAN A"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/ivAvatarContact"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@id/ivAvatarContact"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/ivAvatarContact" />-->
+
+    <!--    &lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/tvNumber"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        style="@style/TextContentNormal"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:textSize="@dimen/font_tiny"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:paddingBottom="@dimen/spacing_small"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:paddingStart="@dimen/spacing_tiny"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginEnd="@dimen/spacing_large"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:text="123456"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:singleLine="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:ellipsize="end"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:textStyle="italic"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintBottom_toBottomOf="@id/ivAvatarContact"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        app:layout_constraintStart_toEndOf="@id/ivAvatarContact" />&ndash;&gt;-->
+
+    <!--    <RadioButton-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/tvName"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/tvName" />-->
+
+
+</LinearLayout>

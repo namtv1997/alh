@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="matching_view_page_margin">10dp</dimen>
+
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_width">180dp</dimen>
+    <dimen name="button_login_width">270dp</dimen>
+    <dimen name="button_active_width">100dp</dimen>
+    <dimen name="button_active_height">40dp</dimen>
+    <dimen name="button_try_again_width">140dp</dimen>
+
+    <dimen name="border_round">300dp</dimen>
+    <dimen name="border_soft">8dp</dimen>
+    <dimen name="border_hard">4dp</dimen>
+    <dimen name="border_booking">10dp</dimen>
+    <dimen name="boder_view">0.1dp</dimen>
+
+    <dimen name="card_elevation">5dp</dimen>
+
+    <dimen name="splash_logo_size">80dp</dimen>
+
+    <dimen name="avatar_profile_size">100dp</dimen>
+
+    <dimen name="icon_size_giant1">130dp</dimen>
+    <dimen name="icon_size_giant">110dp</dimen>
+    <dimen name="icon_size_huge">70dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_normal">30dp</dimen>
+    <dimen name="icon_size_small">20dp</dimen>
+    <dimen name="icon_size_button">48dp</dimen>
+    <dimen name="icon_coworking_avatar">50dp</dimen>
+
+    <dimen name="spacing_giant1">110dp</dimen>
+    <dimen name="spacing_giant2">70dp</dimen>
+    <dimen name="spacing_giant">56dp</dimen>
+    <dimen name="spacing_huge">48dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_normal">24dp</dimen>
+    <dimen name="spacing_small">16dp</dimen>
+    <dimen name="spacing_tiny">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+
+    <dimen name="font_huge">24sp</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_tiny">12sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="logo_size_coworking_height">70dp</dimen>
+    <dimen name="logo_size_coworking_width">120dp</dimen>
+
+    <dimen name="image_cover_size_square">130dp</dimen>
+    <dimen name="image_cover_size_width">276dp</dimen>
+    <dimen name="image_thumbnail_height_map">120dp</dimen>
+    <dimen name="image_thumbnail_width_map">160dp</dimen>
+    <dimen name="image_thumbnail_size_coworking">130dp</dimen>
+
+    <dimen name="thumbnail_height_work_place">100dp</dimen>
+    <dimen name="thumbnail_width_workplace">170dp</dimen>
+
+    <dimen name="padding_bg_booking_gradient">5dp</dimen>
+    <dimen name="padding_list_coworking">80dp</dimen>
+
+    <dimen name="margin_detail_coworking">10dp</dimen>
+
+    <dimen name="vp_height">500dp</dimen>
+    <dimen name="line_view_height">1dp</dimen>
+
+    <dimen name="review_progressbar_size">35dp</dimen>
+    <dimen name="view_height_alert_verify">70dp</dimen>
+    <dimen name="bg_map_height">210dp</dimen>
+    <dimen name="discrete_scroll_view_height">220dp</dimen>
+
+    <dimen name="stroke_width">1dp</dimen>
+
+    <dimen name="label_width">130dp</dimen>
+
+    <dimen name="dialog_noti_width_size">300dp</dimen>
+
+    <dimen name="toolbarMargin">8dp</dimen>
+
+    <dimen name="input_button_width">36dp</dimen>
+    <dimen name="input_button_height">36dp</dimen>
+    <dimen name="input_button_margin">16dp</dimen>
+    <dimen name="input_text_size">17sp</dimen>
+    <dimen name="input_padding_left">16sp</dimen>
+    <dimen name="input_padding_right">16sp</dimen>
+    <dimen name="input_padding_top">8sp</dimen>
+    <dimen name="input_padding_bottom">8sp</dimen>
+
+    <dimen name="message_bubble_corners_radius">15dp</dimen>
+
+    <dimen name="dialog_avatar_width">56dp</dimen>
+    <dimen name="dialog_avatar_height">56dp</dimen>
+    <dimen name="dialog_last_message_avatar_width">24dp</dimen>
+    <dimen name="dialog_last_message_avatar_height">24dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_message_text_size">16sp</dimen>
+    <dimen name="dialog_date_text_size">14sp</dimen>
+    <dimen name="dialog_unread_bubble_text_size">13sp</dimen>
+    <dimen name="dialog_divider_margin_left">88dp</dimen>
+    <dimen name="dialog_divider_margin_right">0dp</dimen>
+
+    <dimen name="message_avatar_width">40dp</dimen>
+    <dimen name="message_avatar_height">40dp</dimen>
+    <dimen name="message_padding_left">16dp</dimen>
+    <dimen name="message_padding_right">16dp</dimen>
+    <dimen name="message_padding_top">16dp</dimen>
+    <dimen name="message_padding_bottom">16dp</dimen>
+    <dimen name="message_text_size">17sp</dimen>
+    <dimen name="message_time_text_size">14sp</dimen>
+    <dimen name="message_date_header_text_size">16sp</dimen>
+    <dimen name="message_date_header_padding">16dp</dimen>
+    <dimen name="message_incoming_bubble_margin_right">40dp</dimen>
+    <dimen name="message_outcoming_bubble_margin_left">88dp</dimen>
+
+</resources>

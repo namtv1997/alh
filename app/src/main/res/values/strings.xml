@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">AlohaAndroid</string>
+
+
+    <string name="alert_no_internet_connetion">No internet connection</string>
+    <string name="error_incorrect_pasword">Password incorrect</string>
+    <string name="error_incorrect_email">email incorrect</string>
+
+
+    <string name="notify_change_password_success">Đổi mật khẩu thành công!</string>
+
+    <string name="notify_check_code_email">Please check code in your email</string>
+    <string name="notify_input_code">Please input code</string>
+    <string name="notify_delete_contact">Bạn có chắc chắn muốn xóa liên hệ này ?</string>
+
+    <string name="message_sorry">Sorry, there was an error</string>
+    <string name="copied_message">Message copied!</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_try_again">Try again</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_login">đăng nhập</string>
+    <string name="button_register">đăng ký</string>
+    <string name="button_confirm"> Xác nhận</string>
+    <string name="button_continue"> Tiếp tục</string>
+    <string name="button_history_call"> Lịch sử cuộc gọi</string>
+    <string name="button_edit_infor">Sửa thông tin</string>
+    <string name="button_change_password">Đổi mật khẩu</string>
+    <string name="button_send_code">Gửi mã xác nhận</string>
+    <string name="button_intro">Giới thiệu</string>
+    <string name="button_logout">Đăng xuất</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonstar">*</string>
+    <string name="button0">0</string>
+    <string name="buttonsharp">#</string>
+
+
+    <string name="error_message_lost_internet_connection">Unable to connect. Please check that you are connected to the
+        Internet and try again.
+    </string>
+
+    <string name="title_app">Kết nối yêu thương</string>
+    <string name="have_account">Đã có tài khoản ?</string>
+    <string name="login"> <u>Đăng nhập</u> </string>
+    <string name="havenot_account">Chưa có tài khoản ? </string>
+    <string name="forgot_password"><u>Quên mật khẩu?</u></string>
+    <string name="register"> <u>Đăng ký</u> </string>
+    <string name="resend"> Gửi lại</string>
+    <string name="time_second">0s</string>
+    <string name="label_wellcome">Chào mừng bạn đến với</string>
+    <string name="label_aloha">ALOHA</string>
+    <string name="label_mute">Tắt mic</string>
+    <string name="label_keyboad">Bàn phím</string>
+    <string name="label_loud">Loa ngoài</string>
+    <string name="label_total_money">Tổng số tiền :</string>
+    <string name="label_mobile">Di động:</string>
+    <string name="label_calling">Đang gọi...</string>
+    <string name="label_call_in_coming">Cuộc gọi đến...</string>
+    <string name="label_decline">Từ chối</string>
+    <string name="label_acept">Đồng ý</string>
+    <string name="label_old_pasword">Mật khẩu cũ</string>
+    <string name="label_new_pasword">Mật khẩu mới</string>
+    <string name="label_input_new_pasword"> Nhập lại mật khẩu mới</string>
+    <string name="label_no_body"> Chưa có liên hệ</string>
+    <string name="label_no_mesage">Không có tin nhắn nào</string>
+    <string name="label_phone">Số điện thoại</string>
+    <string name="label_history">Lịch sử</string>
+
+    <string name="title_chat">Nhắn tin</string>
+    <string name="title_contact">Danh bạ</string>
+    <string name="title_favorite">Ưa thích</string>
+    <string name="title_user">Tài khoản</string>
+    <string name="title_setting">Cài đặt</string>
+    <string name="title_history_call">Lịch sử cuộc gọi</string>
+    <string name="title_edit_contact">Chỉnh sửa danh bạ</string>
+    <string name="title_delete_conversation">Xóa cuộc trò chuyện </string>
+    <string name="title_choose_photo">Choose photo</string>
+    <string name="title_get_photo_gallery">Get photo in galery</string>
+    <string name="title_take_a_photo">Take photo</string>
+    <string name="title_mobile">Điện thoại</string>
+    <string name="title_save">Lưu</string>
+
+
+    <string name="hint_name">Họ tên</string>
+    <string name="hint_number">Số điện thoại</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_repassword">Nhập lại Mật khẩu</string>
+    <string name="hint_username">username</string>
+    <string name="hint_pass">password</string>
+    <string name="hint_input_code">Nhập mã xác nhận</string>
+    <string name="hint_new_pasword">Nhập mật khẩu mới</string>
+    <string name="hint_old_pasword">Nhập mật khẩu cũ</string>
+    <string name="hint_contact_name">Tên liên hệ</string>
+    <string name="hint_enter_a_message">Type a message…</string>
+    <string name="add_contact">Thêm liên hệ</string>
+    <string name="content_favorite">Ưa thích</string>z
+    <string name="record_prompt">Tap the button to start recording</string>
+    <string name="record_in_progress">Recording</string>
+    <string name="toast_recording_start">Recording started</string>
+
+    <!--All string relate to request permission-->
+    <string name="rationale_call_phone">Please accept permission Call Phone to do this action!</string>
+    <string name="rationale_read_and_write_to_storage">Please accept permissions Read and Write to Storage to select
+        file
+    </string>
+    <string name="confirm_accept_permission_location">Please accept permission access location to do this action!
+    </string>
+
+
+    <!-- Dailer -->
+    <string name="address_bar_hint">Enter a number or an address</string>
+
+    <string name="wrong_password">Sai tài khoản hoặc mật khẩu</string>
+
+    <!-- Debug popup -->
+    <string name="debug_popup_title">Debug</string>
+    <string name="debug_popup_enable_logs">Enable logs</string>
+    <string name="debug_popup_disable_logs">Disable logs</string>
+    <string name="debug_popup_send_logs">Send logs</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="pref_auto_download_disabled">Never</string>
+    <string name="pref_auto_download_always">Always</string>
+    <string name="pref_auto_download_under_size">If lighter than max size</string>
+    <string name="sync_account_name">linphone contacts</string>
+    <string name="error_network_unreachable">Network is unreachable</string>
+    <string name="service_name">Service Ready</string>
+    <string name="content_description_incoming_file">Incoming file</string>
+    <string name="group_chat_notif" formatted="false">%1: %2</string>
+    <string name="missed_calls_notif_body">%i missed calls</string>
+    <string name="missed_calls_notif_title">Missed call</string>
+    <string name="notification_reply_label">Reply</string>
+    <string name="notification_replied_label">Sent reply: %s</string>
+    <string name="notification_call_hangup_label">Hangup</string>
+    <string name="notification_call_answer_label">Answer</string>
+    <string name="notification_mark_as_read_label">Mark as read</string>
+    <string name="error">Error</string>
+    <string name="unread_messages">%i unread messages</string>
+    <string name="notification_channel_id" translatable="false">linphone_notification_id</string>
+    <string name="content_title_notification_service">Linphone service notification</string>
+    <string name="content_title_notification">Linphone instant messages notifications</string>
+    <string name="update_available">An update is available</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="link_account_popup">Do you want to link the account %s with your phone number?</string>
+    <string name="delete_text">Are you sure you want to delete your selection?</string>
+    <string name="delete_contacts_text">Are you sure you want to delete these contacts?\nThey will be deleted from your phone as well!</string>
+
+    <!-- Call -->
+    <bool name="forbid_self_call">false</bool>
+    <bool name="allow_ringing_while_early_media">false</bool>
+    <bool name="allow_transfers">true</bool>
+    <bool name="disable_options_in_call">false</bool>
+    <bool name="hide_in_call_stats">false</bool>
+    <bool name="do_not_use_sliders_to_answer_hangup_call_if_phone_unlocked">true</bool>
+    <bool name="allow_pip_while_video_call">true</bool>
+
+    <!-- UI config -->
+    <bool name="orientation_portrait_only">false</bool>
+    <bool name="force_use_of_linphone_friends">false</bool>
+    <bool name="use_linphone_tag">true</bool>
+    <bool name="hide_bottom_bar_on_second_level_views">true</bool>
+    <bool name="use_full_screen_image_splashscreen">false</bool>
+    <bool name="show_camera_preview_on_dialer_on_tablets">true</bool>
+
+    <!-- Others Parameters-->
+    <bool name="enable_call_notification">true</bool>
+    <bool name="kill_service_with_task_manager">true</bool>
+    <bool name="check_for_update_when_app_starts">true</bool>
+    <integer name="time_between_update_check">86400000</integer>
+    <integer name="notification_ms_on">1000</integer>
+    <integer name="notification_ms_off">7000</integer>
+
+    <!-- Textual mention of the app name -->
+    <string name="user_agent" translatable="false">LinphoneAndroid</string>
+    <string name="temp_photo_name" translatable="false">linphone-android-photo-temp</string>
+    <string name="temp_photo_name_with_date" translatable="false">linphone-android-photo-%s</string>
+    <string name="about_text" translatable="false">GNU General Public License V2\n © 2010–2019 Belledonne Communications</string>
+    <string name="about_bugreport_email" translatable="false">linphone-android@belledonne-communications.com</string>
+    <string name="notification_service_channel_id" translatable="false">linphone_notification_service_id</string>
+
+    <!-- URLs, URIs and domain -->
+    <!-- Set the default domain used for account creation/addresses -->
+    <string name="default_domain" translatable="false">sip.linphone.org</string>
+    <string name="default_stun" translatable="false">stun.linphone.org</string>
+    <string name="default_conference_factory_uri" translatable="false">sip:conference-factory@sip.linphone.org</string>
+    <string name="default_lime_x3dh_server_url" translatable="false">https://lime.linphone.org/lime-server/lime-server.php</string>
+    <string name="rls_uri" translatable="false">sip:rls@sip.linphone.org</string>
+    <string name="about_link" translatable="false">https://linphone.org</string>
+    <string name="download_link" translatable="false">https://linphone.org/download</string>
+    <string name="recover_password_link" translatable="false">https://linphone.org/freesip/recover</string>
+    <string name="about_privacy_policy_link" translatable="false">https://www.linphone.org/terms-and-privacy</string>
+    <string name="about_license_link" translatable="false">https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</string>
+
+    <!-- Contacts -->
+    <bool name="hide_contact_phone_numbers">false</bool>
+    <bool name="display_account_assistant_at_first_start">true</bool>
+    <bool name="hide_contact_sip_addresses">false</bool>
+    <bool name="hide_phone_numbers_in_editor">false</bool>
+    <bool name="hide_sip_addresses_in_editor">false</bool>
+    <bool name="allow_only_one_phone_number">false</bool>
+    <bool name="allow_only_one_sip_address">false</bool>
+    <bool name="display_contact_organization">true</bool>
+    <bool name="hide_numbers_and_addresses_without_presence">false</bool>
+    <bool name="hide_sip_contacts_without_presence">false</bool>
+    <bool name="hide_non_linphone_contacts">false</bool>
+    <bool name="hide_invite_contact">false</bool>
+    <bool name="generate_text_avatar">true</bool>
+    <bool name="only_show_address_username_if_matches_default_domain">true</bool>
+    <bool name="fetch_contacts_from_default_directory">true</bool> <!-- Recommended -->
+
+    <!-- Push notification settings -->
+    <bool name="enable_push_id">true</bool>
+    <string name="push_type" translatable="false">firebase</string>
+
+    <string name="gcm_defaultSenderId" translatable="false">929724111839</string>
+
+    <string name="today_date_format" translatable="false">HH:mm</string>
+
+    <!-- Chat -->
+    <bool name="disable_chat">false</bool>
+    <bool name="disable_chat_message_notification">false</bool>
+    <bool name="disable_chat_send_file">false</bool>
+    <bool name="lower_space_between_chat_bubbles_if_same_person">true</bool>
+    <bool name="allow_multiple_images_and_text">true</bool>
+    <bool name="send_text_and_images_as_different_messages">false</bool>
+    <bool name="send_multiple_images_as_different_messages">true</bool>
+    <bool name="use_big_pictures_to_preview_images_file_transfers">true</bool>
+    <bool name="show_sip_uri_in_chat">false</bool>
+    <bool name="create_most_recent_chat_rooms_shortcuts">true</bool>
+    <bool name="force_end_to_end_encryption_in_chat">false</bool>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Errors -->
+    <string name="skipable_error_service_not_ready">Warning: service is not ready</string>
+    <string name="file_transfer_error">File transfer error</string>
+    <string name="warning_wrong_destination_address">Cannot build destination address from %s</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_call_declined">Call declined</string>
+    <string name="error_user_busy">User busy</string>
+    <string name="error_user_not_found">User not found</string>
+    <string name="error_incompatible_media">Incompatible media parameters</string>
+    <string name="error_low_bandwidth">Your caller has low bandwidth, video cannot be started</string>
+    <string name="error_bad_credentials">Bad credentials</string>
+    <string name="error_unauthorized">Unauthorized</string>
+    <string name="error_io_error">Network error</string>
+    <string name="download_image_failed">Download failed. Please check your network connection or try again later.</string>
+    <string name="remote_provisioning_failure">Failed to download or apply remote provisioning profile…</string>
+    <string name="remote_provisioning_again_title">Remote provisioning</string>
+    <string name="remote_provisioning_again_message">Do you want to change the provisioning URI?</string>
+
+    <string name="couldnt_accept_call">An error occurred while accepting the call</string>
+
+    <string name="facebook_app_id">2470521516522998</string>
+    <string name="fb_login_protocol_scheme">fb2470521516522998</string>
+
+    <string name="appID">1373363274303301346</string>
+
+
+    <string name="email_so_dien_thoai">Email / Số điện thoại</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="hoac_dang_nhap_bang">Hoặc đăng nhập bằng</string>
+    <string name="chua_co_tai_khoan">Chưa có tài khoản?</string>
+    <string name="da_co_tai_khoan">Đã có tài khoản?</string>
+    <string name="dang_ky_u"><u>Đăng ký</u></string>
+    <string name="dang_nhap_u"><u>Đăng nhập</u></string>
+    <string name="phai_dien_day_du_thong_tin_de_dang_ky">Phải điền đầy đủ thông tin để đăng ký</string>
+    <string name="tao_tai_khoan">Tạo tài khoản</string>
+    <string name="toi_dong_y_voi_dieu_khoan_va_dieu_kien_su_dung">Tôi đồng ý với <u>Điều khoản và Điều kiện</u> sử dụng</string>
+    <string name="quen_mat_khau">QUÊN MẬT KHẨU</string>
+    <string name="quen_mat_khau_1">Quên mật khẩu</string>
+    <string name="nhap_so_dien_thoai_hoac_email_dang_ky_cua_ban">Nhập số điện thoại hoặc email đăng ký của bạn</string>
+    <string name="so_dien_thoai_email">Số điện thoại / Email</string>
+    <string name="gui_ma">Gửi mã</string>
+    <string name="ban_chua_dong_y_voi_dieu_khoan_va_dieu_kien_su_dung">Bạn chưa đồng ý với Điều khoản và Điều kiện sử dụng</string>
+    <string name="chao_mung_ban_den_voi_vp">Chào mừng bạn đến với VP</string>
+    <string name="ung_dung_goi_dien">Ứng dụng gọi điện, nhắn tin miễn phí cho tất cả các tài khoản trong mạng, và ngoài mạng với chi phí thấp nhất!</string>
+    <string name="co">Có</string>
+    <string name="khong">Không</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="ban_co_muon_dang_xuat">Bạn có muốn đăng xuất tài khoản ?</string>
+    <string name="ban_co_muon_thoat_ung_dung">Bạn có muốn thoát ứng dụng ?</string>
+    <string name="thong_bao">THÔNG BÁO</string>
+    <string name="xac_thuc_tai_khoan">Xác thực tài khoản</string>
+    <string name="gui_ma_xac_thuc_ve">Gửi mã xác thực về: </string>
+    <string name="so_dien_thoai">Số điện thoại</string>
+    <string name="email">Email</string>
+    <string name="gui">Gửi</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="nhap_ma_xac_thuc">Nhập mã xác thực</string>
+    <string name="chua_duoc_nhan_ma_gui_lai">Chưa được nhận mã? <u>Gửi lại</u></string>
+    <string name="chua_chon_noi_gui_ma">Chưa chọn nơi gửi mã</string>
+    <string name="xac_thuc_thanh_cong">Xác thực thành công</string>
+    <string name="cam_on_ban_da_tin_tuong_va_su_dung_ung_dung_cua_chung_toi">Cám ơn bạn đã tin tưởng và sử dụng ứng dụng của chúng tôi</string>
+    <string name="email_da_ton_tai">Email đã tồn tại</string>
+    <string name="so_dien_thoai_da_ton_tai">Số điện thoại đã tồn tại</string>
+    <string name="xac_thuc">Xác thực</string>
+    <string name="doi_mat_khau_moi">Đổi mật khẩu mới</string>
+    <string name="doi_mat_khau">Đổi mật khẩu</string>
+    <string name="doi_mat_khau_thanh_cong">Đổi mật khẩu thành công</string>
+    <string name="tro_ve_dang_nhap">Trở về đăng nhập</string>
+    <string name="ban_chua_nhap_day_du_thong_tin">Bạn chưa nhập đầy đủ thông tin</string>
+    <string name="mat_khau_khong_trung_khop">Mật khẩu không trùng khớp</string>
+    <string name="danh_sach_cac_du_an">DANH SÁCH CÁC DỰ ÁN</string>
+    <string name="tao_du_an_moi">Tạo dự án mới</string>
+    <string name="ten_du_an">Tên dự án</string>
+    <string name="nhap_ten_du_an">Nhập tên dự án</string>
+    <string name="mo_ta">Mô tả</string>
+    <string name="nhap_mo_ta">Nhập mô tả</string>
+    <string name="tao_du_an">Tạo dự án</string>
+    <string name="hay_nhap_tai_khoan_va_mat_khau">Hãy nhập tài khoản và mật khẩu</string>
+    <string name="chua_nhap_email_hoac_so_dien_thoai">Chưa nhập Email hoặc Số điện thoại</string>
+    <string name="chua_nhap_day_du_ma_xac_thuc">Chưa nhập đầy đủ mã xác thực</string>
+    <string name="kiem_tra_ma_xac_thuc_dc_gui_ve">Kiểm tra mã xác thực được gửi về Email hoặc Số điện thoại</string>
+    <string name="chua_co_du_an_nao_nhan_tao_du_an_moi_de_tao_du_an_moi">Chưa có dự án nào.\nNhấn \"Tạo dự án mới\" để tạo dự án mới</string>
+    <string name="chua_nhap_ten_du_an">Chưa nhập tên dự án</string>
+    <string name="ten_du_an_da_ton_tai">Tên dự án đã tồn tại</string>
+    <string name="thanh_cong">Thành công</string>
+    <string name="da_co_loi_thu_lai">Đã có lỗi thử lại</string>
+    <string name="luu_thay_doi">Lưu thay đổi</string>
+    <string name="sua_du_an">Sửa dự án</string>
+    <string name="lua_chon_so_hotline">LỰA CHỌN SỐ HOTLINE</string>
+    <string name="ban_co_the_su_dung_so_dien_thoai_cua_ban_khi_nang_cap_tai_khoan">Bạn có thể sử dụng số điện thoại của bạn khi nâng cấp tài khoản</string>
+    <string name="bat_dau_su_dung">Bắt đầu sử dụng</string>
+    <string name="ban_chua_chon_hotline">Bạn chưa chọn Hotline</string>
+    <string name="dien_thoai">Điện thoại</string>
+    <string name="thong_ke">Thống kê</string>
+    <string name="nhan_tin">Nhắn tin</string>
+    <string name="tai_khoan">Tài khoản</string>
+    <string name="cap_nhap_chinh_sua_thong_tin">Cập nhập, chỉnh sửa thông tin</string>
+    <string name="ho_ten">Họ tên</string>
+    <string name="vuot_sang_de_xoa_du_an">Vuốt sang để xóa dự án</string>
+    <string name="thong_tin_tai_khoan">Thông tin tài khoản</string>
+    <string name="vnd"> VNĐ</string>
+    <string name="dia_chi">Địa chỉ</string>
+    <string name="so_dien_thoai_lien_he">Số điện thoại liên hệ</string>
+    <string name="email_lien_he">Email liên hệ</string>
+    <string name="goi_dich_vu_dang_su_dung">Gói dịch vụ đang sử dụng</string>
+    <string name="xem_chi_tiet_cac_goi_tai_khoan"><u>(Xem chi tiết các gói tài khoản)</u></string>
+    <string name="cap_nhap_thong_tin">Cập nhập thông tin</string>
+    <string name="huong_dan">Hướng dẫn</string>
+    <string name="bat_tat_thong_bao">Bật tắt thông báo</string>
+    <string name="lien_he">Liên hệ</string>
+    <string name="dieu_khoan_dich_vu">Điều khoản dịch vụ</string>
+    <string name="chua_co_tin_nhan_nao">Chưa có tin nhắn nào</string>
+    <string name="tim_kiem_tin_nhan">Tìm kiếm tin nhắn</string>
+    <string name="quay_so">QUAY SỐ</string>
+    <string name="lich_su_cuoc_goi">LỊCH SỬ CUỘC GỌI</string>
+    <string name="danh_ba">DANH BẠ</string>
+    <string name="them_so_hotline">THÊM SỐ HOTLINE</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_contact"
+        android:title="@string/title_edit_contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/history_call"
+        android:title="@string/title_history_call"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/title_setting"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete_conversation"
+        android:title="@string/title_delete_conversation"
+        app:showAsAction="never" />
+</menu>

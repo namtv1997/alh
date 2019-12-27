@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".ui.ae_chat.ChatActivity">
+
+        <include
+            layout="@layout/toolbar_personal"/>
+
+        <com.example.alohaandroid.ui.ae_chat.MessagesList
+            android:id="@+id/messagesList"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            app:incomingAvatarHeight="56dp"
+            app:incomingAvatarWidth="56dp"
+            app:incomingBubbleDrawable="@drawable/bg_custom_send_message"
+            app:outcomingBubbleDrawable="@drawable/bg_custom_receive_message"
+            app:outcomingTimeTextColor="@color/navy_blue_light"/>
+
+        <View
+            android:layout_above="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/gray_light"/>
+
+        <com.example.alohaandroid.ui.ae_chat.MessageInput
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:inputHint="@string/hint_enter_a_message"
+            app:showAttachmentButton="true"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollViewMobileContact"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:layout_constraintTop_toBottomOf="@id/fabConTact">
+
+        <include layout="@layout/chat_bottom_sheet" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

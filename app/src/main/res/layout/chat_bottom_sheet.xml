@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/icon_size_normal"
+            android:layout_height="@dimen/icon_size_normal"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_marginBottom="@dimen/spacing_small"
+            android:src="@drawable/ic_camera" />
+
+        <TextView
+            style="@style/TextContentLargeNavy"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/icon_size_small"
+            android:text="Camera" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/icon_size_normal"
+            android:layout_height="@dimen/icon_size_normal"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_marginBottom="@dimen/spacing_small"
+            android:src="@drawable/ic_record" />
+
+        <TextView
+            style="@style/TextContentLargeNavy"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/icon_size_small"
+            android:text="Record" />
+
+    </LinearLayout>
+
+</LinearLayout>
